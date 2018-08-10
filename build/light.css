@@ -1,0 +1,62 @@
+.weaterComponent .selectCity .selectCityTitle {
+  height: 20px;
+  line-height: 20px;
+  font-size: 13px;
+  color: #fff;
+  padding: 0 5px;
+}
+.weaterComponent .selectCity .selectCityList {
+  height: 60px;
+  width: 220px;
+  word-break: break-all;
+  white-space: initial;
+  padding: 0 5px;
+  overflow: auto;
+}
+.weaterComponent .selectCity .selectCityList .selectCityItem {
+  width: 48px;
+  display: inline-block;
+  vertical-align: top;
+  height: 16px;
+  margin-bottom: 4px;
+  line-height: 16px;
+  color: #ccc;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+}
+.weaterComponent .selectCity .selectCityList .selectCityItem:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.weaterComponent .weater {
+  padding-left: 10px;
+}
+.weaterComponent .weater .weaterDay {
+  display: inline-block;
+  width: 60px;
+  padding-top: 5px;
+  vertical-align: top;
+}
+.weaterComponent .weater .weaterDay .weaterTitle {
+  line-height: 15px;
+  font-size: 12px;
+  transform: scale(0.8);
+  transform-origin: left center;
+  color: #ccc;
+}
+.weaterComponent .weater .weaterDay .weaterIcon {
+  width: 40px;
+  height: 30px;
+  margin: 0 auto;
+}
+.weaterComponent .weater .weaterDay .weaterStatus {
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  width: 73px;
+  text-align: center;
+  transform: scale(0.8);
+  transform-origin: left center;
+  overflow: hidden;
+}

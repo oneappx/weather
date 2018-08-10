@@ -1,0 +1,37 @@
+{
+  "name": "One-Weather",
+  "version": "1.0.0",
+  "description": "One weater",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup --c rollup.conf.js -w",
+    "build": "rollup --c rollup.conf.js"
+  },
+  "repository": {},
+  "author": "echosoar",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^0.50.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "preact": "^8.2.5",
+    "preact-router": "^2.5.7",
+    "rollup-plugin-alias": "^1.3.1",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^8.2.1",
+    "rollup-plugin-jsx": "^1.0.3",
+    "rollup-plugin-less": "^0.1.3",
+    "rollup-plugin-node-globals": "^1.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^2.0.0"
+  },
+  "appInfo": {
+    "name": "天气",
+    "lightName": "近期天气 - 心知天气",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAATlBMVEVHcExsbGz6tyn9uiv8uiv8uSpsbGxra2upiUn9uitra2v8uitra2ttbW39uyz///+Of1rz8eyrq6t/f3/cqS/T09KunXO4lT3Nvpbn3MDzObojAAAADXRSTlMAvzFztlLsPhXdaJeNXlbz5gAAA25JREFUeNrtW+uaqjAMFCjQAttyFX3/Fz0oF1kVSdrEfns+5v/uDJNJE6qeTgcOHDjwZyDDKBdKKa2VEiKP4vCb5HE+ED9D5fF32COhNyFiyUwf5noHgrMWsdAA5FwuhEoDwSJBCg2Hisj5I42DCv09/oTYS/V/JYEu/NoOQvrlH4IgfcSPWkGstVcFbvyDAtf8a1cIt/5XzgK006EoNAFCPw1AEUSpaSC8FsChCCEVv20vKjIBdp0Q0/HbWUBogJUFlAZYWUBqgMV+FNLy48+CiFiAln4rgK4BdQXQNSCvgNaexoDtQFD0AiK/EUCGIGYQoDxnEJfCnENA6LcJcEeROgRwCMAcBNq3AHUI8B1C8V8KCH0fxfIL07Dtyxv6vm3dpmFoR/6zRtm3Dkshmv6JfdLQWl+cIvuw/dnASgJuL0elsC1/ttHbvZlgUtivn/h8Q1m+moB9PVUW/OdLZWZczw8Jrc3deY7lL1fsI7rzWgH2nghag9ns8zP9DVW5BAF/QaAwz19ezXtcZg/wVyQRov3KymzhOinAX1aCbiknfvMBUxkC/B1NDg3AR/5BwagyY7Cg3fN/XYVE0lswGnA1exjbsSC/KBsNOJt9NHcLyC+LS0AA1jG4pUCmqaQqAtwAY+q7BUUw5jEJipTgE5vxDKpAArqXIRlk0rUIJdwAY94N6iB1Gwn3f3IBCqjf7gqFy4ncIiqwYcFggrR/RejBPTA2wtCKTd3dBFdd3cwKktRKQTugx0TgVU9tq+C2+T8stBbwkIBT8Lx8OwhYehMyJPKt7ddJwD0XwEkdq9X2RSZgVgCZ1FK84wdMQsiQAE1qmSxPfWetLuWwCBtXdOADaeZ357Sb1AFJzT9O6o/IRv7O0KMGNcJYgJqBf0oByAAW/mlMpQADmopHQLMfgpQtAEsIPjdicTfAcAoI9nuw5hLQ7QvA7T70AiSvgP0MjBk0ngWwZRDQhswC9g8iyVqCDjAO+c+h4OTtHACNY86TsIbsZIyzALiSJVwWQJdSrn0AvpYnLEVAvJiw7IRdg7i/K0YFNd1IWt6PgddF017eEEmolisCIP9JBvObUd05VqLq6seNDZT/4QEpEgT/kgNCYG9v04SUPrD4DCGjq0Nh+X3rNAucfUiCInP73UGaZaklhr/k/jnagQMH/jb+AeK/8vWmBziVAAAAAElFTkSuQmCC"
+  }
+}

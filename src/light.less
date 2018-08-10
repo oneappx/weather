@@ -1,0 +1,75 @@
+.weaterComponent {
+  .selectCity {
+    .selectCityTitle {
+      height: 20px;
+      line-height: 20px;
+      font-size: 13px;
+      color: #fff;
+      padding: 0 5px;
+    }
+
+    .selectCityList {
+      height: 60px;
+      width: 220px;
+      word-break: break-all;
+      white-space: initial;
+      padding: 0 5px;
+      overflow: auto;
+
+      .selectCityItem {
+        width: 48px;
+        display: inline-block;
+        vertical-align: top;
+        height: 16px;
+        margin-bottom: 4px;
+        line-height: 16px;
+        color: #ccc;
+        cursor: pointer;
+        font-size: 12px;
+        text-align: center;
+
+        &:hover {
+          background: rgba(0,0,0,.3);
+        }
+      }
+
+    }
+  }
+
+  .weater {
+    padding-left: 10px;
+
+    .weaterDay {
+      display: inline-block;
+      width: 60px;
+      padding-top: 5px;
+      vertical-align: top;
+
+      .weaterTitle {
+        line-height: 15px;
+        font-size: 12px;
+        transform: scale(.8);
+        transform-origin: left center;
+        color: #ccc;
+      }
+
+      .weaterIcon {
+        width: 40px;
+        height: 30px;
+        margin: 0 auto;
+      }
+
+      .weaterStatus {
+        white-space: nowrap;
+        font-size: 12px;
+        line-height: 12px;
+        color: #fff;
+        width: 73px;
+        text-align: center;
+        transform: scale(.8);
+        transform-origin: left center;
+        overflow: hidden;
+      }
+    }
+  }
+}
